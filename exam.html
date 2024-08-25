@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>21BCE7295</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>JSON Processor</h1>
+        <textarea id="json-input" placeholder='Enter JSON (e.g., {"data": ["A","C","z"]})'></textarea>
+        <button id="submit-btn">Submit</button>
+        <select id="filter-dropdown" multiple>
+            <option value="alphabets">Alphabets</option>
+            <option value="numbers">Numbers</option>
+            <option value="highest_lowercase">Highest lowercase alphabet</option>
+        </select>
+        <div id="error-message" class="error"></div>
+        <div id="response-output"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
